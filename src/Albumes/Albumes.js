@@ -45,7 +45,7 @@ export function Albumes (){
                                 <div className="col mt-5 h-100 mx-auto d-block">
                                     <div className="card h-100 ">
                                         <img src={cancion.album.images[0].url} className="img-fluid w-50 p-1 h-100 mx-auto d-block" alt="foto"/> 
-                                        <h3 className="img-fluid w-25  p-1 h-25 mx-auto d-block">{cancion.name}</h3>
+                                        <h3 className="img-fluid w-25  p-1 h-25 mx-auto d-block font-weight-bold">{cancion.name}</h3>
                                         <audio className="mx-auto d-block"src={cancion.preview_url} controls />                                                                       
                                                                  
                                     </div>
